@@ -1,0 +1,26 @@
+{
+  "bolha" : {
+    "extrastates" : ["estourando"], "nimgs" : [5,5],  "animationTime": [10, 10],  "contact" : ["buff",1], "resize" : 0.2
+  },
+    "bolhamaior" : {
+    "extrastates" : ["estourando"], "nimgs" : [5,5],  "animationTime": [10, 10],  "contact" : ["jump",2], "resize" : 0.5
+  },
+  "rinovirus" : {
+    "extrastates" : [], "nimgs" : [1], "rotation" : [-15,15], "rotationdirection" : [-1,1], "rotationspeed": [0.8, 0.8], "contact" : ["die"]
+  },
+  "pneumococo" : {
+    "extrastates" : [], "nimgs" : [1], "rotation" : [-15,15], "rotationdirection" : [-1,1], "rotationspeed": [0.8, 0.8], "contact" : ["die"]
+  },
+  "pelo" : {
+    "extrastates" : [], "nimgs" : [1], "path" : -1, "rotation" : [-15, 15], "rotationdirection" : [-1, 1], "rotationspeed": [0.3, 0.3], "contact" : ["slow", 0.40]
+  },
+  "sistemaimuno" : {
+    "extrastates" : [], "nimgs" : [1], "path" : 1, "movespeed" : 1, "contact" : ["die"]
+  },
+  "vida" : {
+    "extrastates" : [], "nimgs" : [4], "contact" : ["life", 1], "animationTime": [5]
+  },
+  "checkpoint" : {
+    "extrastates" : [], "nimgs" : [1], "contact" : ["checkpoint"], "resize" : 0.1
+  }
+}
